@@ -2,7 +2,7 @@
 Route::get('/',function(){
 return view('inicio');
 });
-Route::view('/inicio','inicio');
+//Route::view('/inicio','inicio');
 Route::view('/contactos','contactos');
 Route::resource('profesor','ProfesorController');
 Route::resource('alumnos','AlumnosController');
