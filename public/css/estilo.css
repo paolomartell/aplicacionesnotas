@@ -1,0 +1,52 @@
+
+				img{
+					width: 400px;
+				}
+
+
+
+				li{
+					float: left;
+					list-style: none;
+					padding:10px;
+				}
+				nav{
+					float:left;
+					margin-top: 40px;
+					margin-right:  20px;
+
+				}
+				.contenedor {
+
+					margin:auto;
+				}
+				a{
+				text-decoration: none;
+				font-family: fantasy;
+				color: black;
+				font-size: large;
+				margin-right: 20px;
+				}
+
+				li:hover a{
+					color: red;
+				}
+
+				header{
+					background-color:rgb(250, 138, 11);
+
+				}
+				.font{
+					size=12;
+				}
+				h1{
+					font: small-caps 200%/50% cursive;
+					text-align: center;
+				}
+				h2{
+					font: small-caps 200%/100% monospace;
+					text-align: center;
+				}
+
+
+
