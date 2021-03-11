@@ -1,6 +1,6 @@
 <?php
 Route::get('/',function(){
-return view('inicio');
+return view('index');
 });
 //Route::view('/inicio','inicio');
 Route::view('/contactos','contactos');
