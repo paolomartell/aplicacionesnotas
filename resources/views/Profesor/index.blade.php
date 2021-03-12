@@ -49,14 +49,11 @@ Session::get('Mensaje')
 			<a href="{{url('/profesor/'.$profesor->id.'/editar')}}" class="btn btn-success">
 				Editar
 			</a>
-
-
 				<form method="post" action="{{url('/profesor/'.$profesor->id)}}">
 				{{csrf_field()}}
 				{{method_field('DELETE')}}
 				<button type="submit" onclick="return confirm('¿Estas seguro de borrar?');" class="btn btn-danger">Borrar</button>
 				</form>
-
 			</td>
 		</tr>
 		@endforeach
