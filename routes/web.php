@@ -4,11 +4,11 @@ return view('index');
 });
 //Route::view('/inicio','inicio');
 Route::view('/contactos','contactos');
-Route::resource('profesor','App\Http\Controllers\ProfesorController');
-Route::resource('alumnos','App\Http\Controllers\AlumnosController');
+Route::resource('profesor','ProfesorController');
+Route::resource('alumnos','AlumnosController');
 //Route::resource('alumnos','AlumnosController');
-Route::resource('cursos','App\Http\Controllers\CursosController');
-Route::resource('calificaciones','App\Http\Controllers\ProfesorController');
+Route::resource('cursos','CursosController');
+Route::resource('calificaciones','CalificacionesController');
 
 
 //Auth::routes();
